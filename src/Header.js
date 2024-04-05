@@ -2,7 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>
+    <header style={{
+        color:'red'
+    }}>
         <h1>Groceries List</h1>
     </header>
   )
